@@ -1,0 +1,284 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: lightblue;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+
+
+
+
+
+.intro {
+    background-color: #f0f4f8;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.intro h1 {
+    font-size: 40px;
+    color: #1d3557;
+}
+
+.intro h3 {
+    font-size: 24px;
+    color: #457b9d;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+
+
+
+.personal {
+    background-color: #f0f4f8;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.personal h2 {
+    color: #1d3557;
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+
+.personal p {
+    font-size: 18px;
+    color: #444;
+    margin: 15px;
+}
+
+
+
+
+
+
+.about {
+    background-color: #f0f4f8;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #1d3557;
+    font-size: 28px;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+
+.about p {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+.skills {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.skills h2 {
+    color: #1d3557;
+    font-size: 28px;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.skill-box {
+    background-color: #dceaf5;
+    color: #1d3557;
+    padding: 15px 30px;
+    border: 1px solid #a8c8df;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.education {
+    background-color: #f0f4f8;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.education h2 {
+    color: #1d3557;
+    font-size: 28px;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+
+.education-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.education-box {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.education-box h3 {
+    color: #457b9d;
+    font-size: 21px;
+}
+
+.education-box p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+.experience {
+    background-color: #f0f4f8;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.experience h2 {
+    color: #1d3557;
+    font-size: 28px;
+    text-align: center;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+
+.experience-box {
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.experience-box h3 {
+    color: #1d3557;
+    font-size: 23px;
+}
+
+.experience-box h4 {
+    color: #457b9d;
+    font-size: 18px;
+}
+
+.experience-box p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.experience-box ul {
+    color: #444;
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+.contact {
+    background-color: #f0f4f8;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #1d3557;
+    font-size: 28px;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+
+.contact p {
+    color: #444;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.contact-links a {
+    background-color: #1d3557;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-links a:hover {
+    background-color: #457b9d;
+}
